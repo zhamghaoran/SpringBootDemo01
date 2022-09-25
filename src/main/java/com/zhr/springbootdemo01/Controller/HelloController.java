@@ -2,17 +2,15 @@ package com.zhr.springbootdemo01.Controller;
 
 import com.zhr.springbootdemo01.Dao.person;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class HelloController {
     @Autowired
     person person;
 
-    @RequestMapping(value = "/person",method = RequestMethod.GET)
+    //@RequestMapping(value = "/person",method = RequestMethod.GET)
+    @GetMapping("/user")
     public person getPerson() {
         return person;
     }

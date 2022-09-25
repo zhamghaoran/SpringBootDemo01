@@ -7,3 +7,8 @@ person:
   age: 1
   user-name: qaq
   birth: 2022/9/25
+#spring:
+#  mvc:
+#    hidden-method:
+#      filter:
+#        enabled: true  #开启隐藏拦截器（可以在网页使用REST风格请求）
