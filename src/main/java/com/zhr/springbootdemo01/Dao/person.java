@@ -11,7 +11,7 @@ import java.util.Set;
 
 
 @ConfigurationProperties(prefix = "person")
- @Component
+@Component
 @Data  // get set方法
 @ToString // tostring方法
 @AllArgsConstructor // 全参构造器0

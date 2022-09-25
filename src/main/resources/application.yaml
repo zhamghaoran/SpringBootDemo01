@@ -3,3 +3,7 @@
 #    static-path-pattern: /res/**
 #  resources:
 #    static-locations: [classpath:/haha/]
+person:
+  age: 1
+  user-name: qaq
+  birth: 2022/9/25
