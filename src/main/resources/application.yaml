@@ -1,5 +1,5 @@
-spring:
-  mvc:
-    static-path-pattern: /res/**
-  resources:
-    static-locations: classpath:/haha/
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+#  resources:
+#    static-locations: [classpath:/haha/]
