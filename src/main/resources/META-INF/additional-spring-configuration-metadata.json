@@ -1,1 +1,8 @@
-{ "properties": [ ] }
+{
+  "properties": [
+    {
+      "name": "person.boss",
+      "type": "java.lang.String",
+      "description": "Description for person.boss."
+  }
+] }
