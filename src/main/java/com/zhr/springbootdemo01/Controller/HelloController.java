@@ -24,7 +24,5 @@ public class HelloController {
         person.setUserName(username);
         return person;
     }
-
-
 }
 
