@@ -15,8 +15,14 @@ public class HelloController {
     person person;
 
     //@RequestMapping(value = "/person",method = RequestMethod.GET)
+
+    /**
+     * 数据绑定，页面提交的数据，都可以和对象的属性进行绑定
+     * @param person
+     * @return
+     */
     @GetMapping("/user")
-    public person getPerson() {
+    public person getPerson(person person) {
         return person;
     }
     @RequestMapping(value = "/person" ,method = RequestMethod.PUT)
@@ -38,5 +44,8 @@ public class HelloController {
             System.out.println(i);
         return map;
     }
+
+
+
 }
 
